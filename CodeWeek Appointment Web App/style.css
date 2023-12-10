@@ -1,0 +1,48 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  border-bottom: 1px solid gray;
+}
+
+.input-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30%;
+}
+
+.list-uncomplited {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  border: 2px solid blue;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.uncomplited-item {
+  display: flex;
+  list-style-type: none;
+  border: 2px black;
+  gap: 15px;
+  margin: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.list-complited {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  border: 2px solid rgb(0, 255, 55);
+  overflow: scroll;
+  height: 500px;
+}
+
+.complited-item {
+  display: flex;
+  list-style-type: none;
+  border: 2px black;
+  gap: 15px;
+  margin: 10px;
+  border-bottom: 1px solid gray;
+}
